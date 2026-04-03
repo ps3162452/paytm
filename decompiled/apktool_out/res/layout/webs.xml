@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/linear1" android:background="@drawable/uugg" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear12" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear24" android:background="@drawable/ugf" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear26" android:background="#e3f2fd" android:padding="8.0dp" android:layout_width="50.0dp" android:layout_height="50.0dp" android:layout_marginLeft="10.0dp">
+                    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/textview1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SM" />
+                </LinearLayout>
+                <ImageView android:id="@id/imageview6" android:layout_width="wrap_content" android:layout_height="65.0dp" android:src="@drawable/zhdh" android:scaleType="fitCenter" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/linear22" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+            <ScrollView android:id="@id/vscroll1" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear23" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear25" android:background="@drawable/uugg" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/imageview13" android:layout_width="190.0dp" android:layout_height="180.0dp" android:src="@drawable/sjjd_15" android:scaleType="fitXY" />
+                        <ImageView android:id="@id/imageview14" android:layout_width="190.0dp" android:layout_height="170.0dp" android:layout_marginTop="5.0dp" android:src="@drawable/sjjd_14" android:scaleType="fitXY" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/imageview7" android:layout_width="wrap_content" android:layout_height="185.0dp" android:src="@drawable/sjjd_11" android:scaleType="fitCenter" />
+                    <ImageView android:id="@id/imageview8" android:layout_width="wrap_content" android:layout_height="168.0dp" android:src="@drawable/sjjd_12" android:scaleType="fitCenter" />
+                    <ImageView android:id="@id/imageview18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sjjd_13" android:scaleType="fitCenter" />
+                    <ImageView android:id="@id/imageview10" android:layout_width="wrap_content" android:layout_height="130.0dp" android:src="@drawable/sjjd_6" android:scaleType="fitCenter" />
+                    <ImageView android:id="@id/imageview19" android:layout_width="wrap_content" android:layout_height="210.0dp" android:src="@drawable/sjjd_5" android:scaleType="fitCenter" />
+                    <ImageView android:id="@id/imageview20" android:layout_width="wrap_content" android:layout_height="238.0dp" android:src="@drawable/sjjd_3" android:scaleType="fitCenter" />
+                    <ImageView android:id="@id/imageview22" android:layout_width="wrap_content" android:layout_height="162.0dp" android:src="@drawable/sjjd_4" android:scaleType="fitCenter" />
+                    <ImageView android:id="@id/imageview21" android:layout_width="wrap_content" android:layout_height="200.0dp" android:src="@drawable/sjjd_1" android:scaleType="fitCenter" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/cuadro_abajo" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/mini_cuadro" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear15" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="90.0dp">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear16" android:background="@android:color/transparent" android:layout_width="0.0dp" android:layout_height="50.0dp">
+                        <ImageView android:id="@id/imageview1" android:layout_width="40.0dp" android:layout_height="0.0dp" android:src="@drawable/default_image" android:scaleType="fitXY" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear17" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="match_parent">
+                        <ImageView android:id="@id/imageview2" android:layout_width="60.0dp" android:layout_height="50.0dp" android:src="@drawable/default_image" android:scaleType="fitXY" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear18" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="20.0dp">
+                        <ImageView android:id="@id/imageview3" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_marginRight="20.0dp" android:src="@drawable/default_image" android:scaleType="fitXY" />
+                        <ImageView android:id="@id/imageview12" android:layout_width="180.0dp" android:layout_height="70.0dp" android:layout_marginLeft="15.0dp" android:src="@drawable/dijdcj" android:scaleType="fitCenter" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/linear19" android:background="@android:color/transparent" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+                        <ImageView android:id="@id/imageview4" android:layout_width="65.0dp" android:layout_height="0.0dp" android:src="@drawable/default_image" android:scaleType="fitXY" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/linear21" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+                        <ImageView android:id="@id/imageview5" android:layout_width="35.0dp" android:layout_height="0.0dp" android:layout_marginBottom="7.0dp" android:src="@drawable/default_image" android:scaleType="fitCenter" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

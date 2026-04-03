@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/linear3" android:background="#ffffff" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="10.0dp" />
+    <LinearLayout android:orientation="vertical" android:id="@id/linear1" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/textview2" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="TextView" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/linear19" android:background="#f5f5f5" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linear14" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imageview3" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginLeft="5.0dp" android:layout_marginRight="10.0dp" android:layout_marginBottom="15.0dp" android:src="@drawable/ic_keyboard_backspace_black" android:scaleType="fitXY" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/linear25" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear16" android:background="#ffc107" android:padding="8.0dp" android:layout_width="55.0dp" android:layout_height="55.0dp" android:layout_marginRight="50.0dp">
+                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/textview15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear17" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear18" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:textSize="18.0sp" android:textStyle="bold" android:textColor="#000000" android:textColorHint="#607d8b" android:id="@id/textview8" android:background="@android:color/transparent" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Subh Sing Boss season " android:hint="Edit Text" />
+                <ImageView android:id="@id/imageview4" android:layout_width="21.0dp" android:layout_height="20.0dp" android:src="@drawable/zhz" android:scaleType="fitXY" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="#000000" android:id="@id/textview7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Srejsihbeniixhsbuue7373737@paytm" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#000000" android:id="@id/textview12" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear15" android:layout_width="match_parent" android:layout_height="100.0dp" android:layout_marginTop="30.0dp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear21" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear22" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="30.0sp" android:textColor="#000000" android:gravity="left" android:id="@id/textview10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:text="₹" />
+                    <EditText android:textSize="80.0sp" android:textStyle="bold" android:textColor="#000000" android:textColorHint="#e0e0e0" android:id="@id/edittext1" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="0" android:inputType="phone" />
+                </LinearLayout>
+                <TextView android:textSize="14.0sp" android:textColor="#607d8b" android:id="@id/textview14" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rupees" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear24" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear23" android:background="#e1f5fe" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp">
+                <TextView android:textSize="14.0sp" android:textColor="#757575" android:id="@id/textview17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" android:text="Add message" />
+            </LinearLayout>
+        </LinearLayout>
+        <EditText android:textSize="12.0sp" android:textColor="#000000" android:textColorHint="#607d8b" android:id="@id/edittext2" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:hint="Edit Text" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/linear2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dp" android:layout_weight="5.0">
+            <LinearLayout android:orientation="horizontal" android:id="@id/linear4" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear5" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/linear20" android:background="#e0e0e0" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="2.0dp" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear6" android:background="#00b8f6" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dp" android:layout_marginTop="15.0dp" android:layout_marginRight="15.0dp">
+                        <ImageView android:id="@id/imageview5" android:layout_width="25.0dp" android:layout_height="25.0dp" android:src="@drawable/ic_verified_user_white" android:scaleType="fitXY" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/textview9" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Proceed Securely" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/imageview2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ghc" android:scaleType="fitCenter" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

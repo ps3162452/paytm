@@ -1,0 +1,30 @@
+package androidx.cardview.widget;
+
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.graphics.RectF;
+import androidx.annotation.RequiresApi;
+import androidx.cardview.widget.RoundRectDrawableWithShadow;
+
+/* JADX INFO: loaded from: classes38.dex */
+@RequiresApi(17)
+class CardViewApi17Impl extends CardViewBaseImpl {
+    CardViewApi17Impl() {
+    }
+
+    @Override // androidx.cardview.widget.CardViewBaseImpl, androidx.cardview.widget.CardViewImpl
+    public void initStatic() {
+        RoundRectDrawableWithShadow.sRoundRectHelper = new RoundRectDrawableWithShadow.RoundRectHelper(this) { // from class: androidx.cardview.widget.CardViewApi17Impl.1
+            final CardViewApi17Impl this$0;
+
+            {
+                this.this$0 = this;
+            }
+
+            @Override // androidx.cardview.widget.RoundRectDrawableWithShadow.RoundRectHelper
+            public void drawRoundRect(Canvas canvas, RectF rectF, float f, Paint paint) {
+                canvas.drawRoundRect(rectF, f, f, paint);
+            }
+        };
+    }
+}

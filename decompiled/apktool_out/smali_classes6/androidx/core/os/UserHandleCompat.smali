@@ -1,0 +1,260 @@
+.class public Landroidx/core/os/UserHandleCompat;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/core/os/UserHandleCompat$Api24Impl;
+    }
+.end annotation
+
+
+# static fields
+.field private static sGetUserIdMethod:Ljava/lang/reflect/Method;
+
+.field private static sUserHandleConstructor:Ljava/lang/reflect/Constructor;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/lang/reflect/Constructor",
+            "<",
+            "Landroid/os/UserHandle;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method private static getGetUserIdMethod()Ljava/lang/reflect/Method;
+    .locals 6
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/NoSuchMethodException;
+        }
+    .end annotation
+
+    const/4 v5, 0x1
+
+    sget-object v0, Landroidx/core/os/UserHandleCompat;->sGetUserIdMethod:Ljava/lang/reflect/Method;
+
+    if-nez v0, :cond_0
+
+    const-class v0, Landroid/os/UserHandle;
+
+    const/16 v1, 0x9
+
+    new-array v1, v1, [B
+
+    fill-array-data v1, :array_0
+
+    const-string v2, "cf6960"
+
+    const/16 v3, 0x1364
+
+    invoke-static {v1, v2, v3}, Ln/NPStringFog;->decode([BLjava/lang/String;I)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-array v2, v5, [Ljava/lang/Class;
+
+    const/4 v3, 0x0
+
+    sget-object v4, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
+
+    aput-object v4, v2, v3
+
+    invoke-virtual {v0, v1, v2}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+    move-result-object v0
+
+    sput-object v0, Landroidx/core/os/UserHandleCompat;->sGetUserIdMethod:Ljava/lang/reflect/Method;
+
+    invoke-virtual {v0, v5}, Ljava/lang/reflect/Method;->setAccessible(Z)V
+
+    :cond_0
+    sget-object v0, Landroidx/core/os/UserHandleCompat;->sGetUserIdMethod:Ljava/lang/reflect/Method;
+
+    return-object v0
+
+    nop
+
+    :array_0
+    .array-data 1
+        0x4t
+        0x3t
+        0x42t
+        0x6ct
+        0x45t
+        0x55t
+        0x11t
+        0x2ft
+        0x52t
+    .end array-data
+.end method
+
+.method private static getUserHandleConstructor()Ljava/lang/reflect/Constructor;
+    .locals 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/lang/reflect/Constructor",
+            "<",
+            "Landroid/os/UserHandle;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/NoSuchMethodException;
+        }
+    .end annotation
+
+    const/4 v4, 0x1
+
+    sget-object v0, Landroidx/core/os/UserHandleCompat;->sUserHandleConstructor:Ljava/lang/reflect/Constructor;
+
+    if-nez v0, :cond_0
+
+    const-class v0, Landroid/os/UserHandle;
+
+    new-array v1, v4, [Ljava/lang/Class;
+
+    const/4 v2, 0x0
+
+    sget-object v3, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
+
+    aput-object v3, v1, v2
+
+    invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+
+    move-result-object v0
+
+    sput-object v0, Landroidx/core/os/UserHandleCompat;->sUserHandleConstructor:Ljava/lang/reflect/Constructor;
+
+    invoke-virtual {v0, v4}, Ljava/lang/reflect/Constructor;->setAccessible(Z)V
+
+    :cond_0
+    sget-object v0, Landroidx/core/os/UserHandleCompat;->sUserHandleConstructor:Ljava/lang/reflect/Constructor;
+
+    return-object v0
+.end method
+
+.method public static getUserHandleForUid(I)Landroid/os/UserHandle;
+    .locals 5
+
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v1, 0x18
+
+    if-lt v0, v1, :cond_0
+
+    invoke-static {p0}, Landroidx/core/os/UserHandleCompat$Api24Impl;->getUserHandleForUid(I)Landroid/os/UserHandle;
+
+    move-result-object v0
+
+    :goto_0
+    return-object v0
+
+    :cond_0
+    :try_start_0
+    invoke-static {}, Landroidx/core/os/UserHandleCompat;->getGetUserIdMethod()Ljava/lang/reflect/Method;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x1
+
+    new-array v2, v2, [Ljava/lang/Object;
+
+    const/4 v3, 0x0
+
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v4
+
+    aput-object v4, v2, v3
+
+    invoke-virtual {v0, v1, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Integer;
+
+    invoke-static {}, Landroidx/core/os/UserHandleCompat;->getUserHandleConstructor()Ljava/lang/reflect/Constructor;
+
+    move-result-object v1
+
+    const/4 v2, 0x1
+
+    new-array v2, v2, [Ljava/lang/Object;
+
+    const/4 v3, 0x0
+
+    aput-object v0, v2, v3
+
+    invoke-virtual {v1, v2}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/os/UserHandle;
+    :try_end_0
+    .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_3
+    .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_2
+    .catch Ljava/lang/InstantiationException; {:try_start_0 .. :try_end_0} :catch_1
+    .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception v0
+
+    new-instance v1, Ljava/lang/RuntimeException;
+
+    invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+
+    throw v1
+
+    :catch_1
+    move-exception v0
+
+    new-instance v1, Ljava/lang/InstantiationError;
+
+    invoke-direct {v1}, Ljava/lang/InstantiationError;-><init>()V
+
+    invoke-virtual {v1, v0}, Ljava/lang/Error;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+
+    throw v1
+
+    :catch_2
+    move-exception v0
+
+    new-instance v1, Ljava/lang/IllegalAccessError;
+
+    invoke-direct {v1}, Ljava/lang/IllegalAccessError;-><init>()V
+
+    invoke-virtual {v1, v0}, Ljava/lang/Error;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+
+    throw v1
+
+    :catch_3
+    move-exception v0
+
+    new-instance v1, Ljava/lang/NoSuchMethodError;
+
+    invoke-direct {v1}, Ljava/lang/NoSuchMethodError;-><init>()V
+
+    invoke-virtual {v1, v0}, Ljava/lang/Error;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+
+    throw v1
+.end method
