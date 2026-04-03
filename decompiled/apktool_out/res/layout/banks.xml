@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear11133" android:background="@drawable/dkkd" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/imageview1" android:layout_width="wrap_content" android:layout_height="60.0dp" android:layout_marginTop="5.0dp" android:src="@drawable/hhgigv" android:scaleType="fitXY" />
+    </LinearLayout>
+    <ScrollView android:id="@id/vscroll1" android:layout_width="0.0dp" android:layout_height="0.0dp">
+        <LinearLayout android:orientation="vertical" android:id="@id/linear2" android:layout_width="0.0dp" android:layout_height="0.0dp">
+            <HorizontalScrollView android:id="@id/hscroll1" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/linear4" android:background="@drawable/dkkd" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </HorizontalScrollView>
+            <LinearLayout android:orientation="horizontal" android:id="@id/linear11" android:layout_width="0.0dp" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/namesp" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="TextView" />
+            <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/date" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="TextView" />
+            <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/money" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="TextView" />
+            <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/name" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="TextView" />
+            <ScrollView android:id="@id/vscroll2" android:layout_width="0.0dp" android:layout_height="0.0dp">
+                <LinearLayout android:orientation="vertical" android:id="@id/linear16" android:layout_width="0.0dp" android:layout_height="0.0dp">
+                    <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/namee" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="name" />
+                    <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/upi" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="TextView" />
+                    <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/amount" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="amount" />
+                    <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/nm" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="TextView" />
+                    <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/datee" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="TextView" />
+                    <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/pm" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="TextView" />
+                    <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/checkupi" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="TextView" />
+                    <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/utr" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="TextView" />
+                </LinearLayout>
+            </ScrollView>
+            <LinearLayout android:orientation="vertical" android:id="@id/gutt" android:layout_width="0.0dp" android:layout_height="0.0dp">
+                <HorizontalScrollView android:id="@id/hscroll2" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linear9" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:id="@id/linear19" android:background="@drawable/hgf" android:layout_width="140.0dp" android:layout_height="150.0dp" android:layout_marginLeft="15.0dp">
+                            <ScrollView android:id="@id/vscroll3" android:layout_width="wrap_content" android:layout_height="match_parent" />
+                            <ImageView android:id="@id/imageview34" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/default_image" android:scaleType="center" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@id/pesehide" android:padding="8.0dp" android:layout_width="170.0dp" android:layout_height="150.0dp" android:layout_marginLeft="10.0dp">
+                            <LinearLayout android:orientation="horizontal" android:id="@id/linear31" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                            <ImageView android:id="@id/imageview33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/default_image" android:scaleType="center" />
+                            <HorizontalScrollView android:id="@id/hscroll6" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <ImageView android:id="@id/imageview36" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/default_image" android:scaleType="center" />
+                            </HorizontalScrollView>
+                            <EditText android:textSize="12.0sp" android:textColor="#000000" android:textColorHint="#607d8b" android:id="@id/edittext4" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Edit Text" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/peseshow" android:background="@drawable/ghc_1" android:padding="8.0dp" android:layout_width="170.0dp" android:layout_height="150.0dp" android:layout_marginLeft="10.0dp">
+                            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/linear20" android:layout_width="match_parent" android:layout_height="match_parent">
+                                <EditText android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffff" android:textColorHint="#ffffff" android:id="@id/pesshow" android:background="@android:color/transparent" android:paddingTop="8.0dp" android:paddingRight="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹ 73776228.84" android:hint="Edit Text" android:inputType="phone" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@id/linear10" android:background="@drawable/hhvv_10" android:layout_width="290.0dp" android:layout_height="150.0dp" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <ImageView android:id="@id/imageview8" android:layout_width="wrap_content" android:layout_height="50.0dp" android:src="@drawable/hhvv_11" android:scaleType="fitCenter" />
+                <HorizontalScrollView android:id="@id/hscroll3" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/linear12" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/imageview9" android:layout_width="250.0dp" android:layout_height="95.0dp" android:src="@drawable/hhvv_7" android:scaleType="fitCenter" />
+                        <ImageView android:id="@id/imageview12" android:layout_width="250.0dp" android:layout_height="95.0dp" android:src="@drawable/hhvv_9" android:scaleType="fitCenter" />
+                        <ImageView android:id="@id/imageview10" android:layout_width="250.0dp" android:layout_height="95.0dp" android:src="@drawable/hhvv_8" android:scaleType="fitCenter" />
+                        <ImageView android:id="@id/imageview13" android:layout_width="250.0dp" android:layout_height="95.0dp" android:src="@drawable/hhvv_4" android:scaleType="fitCenter" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <ImageView android:id="@id/imageview6" android:layout_width="wrap_content" android:layout_height="100.0dp" android:src="@drawable/sksk" android:scaleType="fitCenter" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linear13" android:background="@drawable/hhvv_3" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:layout_width="match_parent" android:layout_height="55.0dp">
+                    <EditText android:textSize="14.0sp" android:textStyle="bold" android:textColor="#000000" android:textColorHint="#607d8b" android:id="@id/edittext1" android:background="@drawable/hhvv_3" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="November 2025" />
+                    <LinearLayout android:gravity="right|center" android:layout_gravity="left" android:orientation="horizontal" android:id="@id/linear17" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/linear18" android:layout_width="wrap_content" android:layout_height="match_parent">
+                            <TextView android:textSize="14.0sp" android:textColor="#757575" android:id="@id/textview4" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Total Spent" />
+                            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#000000" android:id="@id/textview3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹ 59,263.58" />
+                        </LinearLayout>
+                        <ImageView android:id="@id/imageview14" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/dhdhc" android:scaleType="fitXY" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/linear1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/header_linear" android:background="@drawable/ghgb" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/linear29" android:background="@drawable/ghgb" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <HorizontalScrollView android:id="@id/hscroll7" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linear32" android:background="@drawable/ggft" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/imageview21" android:layout_width="150.0dp" android:layout_height="150.0dp" android:src="@drawable/hhvv_12" android:scaleType="fitCenter" />
+                        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/linear27" android:background="@drawable/ghc_1" android:padding="8.0dp" android:layout_width="175.0dp" android:layout_height="150.0dp">
+                            <EditText android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffff" android:textColorHint="#ffffff" android:id="@id/edittext5" android:background="@android:color/transparent" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" android:text="₹ 636367373.00" android:hint="Edit Text" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@id/linear26" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+                        <LinearLayout android:orientation="vertical" android:id="@id/linear28" android:background="@drawable/hhvv_10" android:padding="8.0dp" android:layout_width="280.0dp" android:layout_height="150.0dp" android:layout_marginRight="30.0dp" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <ImageView android:id="@id/imageview27" android:layout_width="wrap_content" android:layout_height="50.0dp" android:src="@drawable/hhvv_11" android:scaleType="fitCenter" />
+                <HorizontalScrollView android:layout_gravity="center" android:id="@id/hscroll9" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linear30" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/imageview24" android:layout_width="250.0dp" android:layout_height="100.0dp" android:src="@drawable/hhvv_4" android:scaleType="fitCenter" />
+                        <ImageView android:id="@id/imageview25" android:layout_width="250.0dp" android:layout_height="100.0dp" android:src="@drawable/hhvv_7" android:scaleType="fitCenter" />
+                        <ImageView android:id="@id/imageview30" android:layout_width="250.0dp" android:layout_height="100.0dp" android:src="@drawable/hhvv_9" android:scaleType="fitCenter" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <LinearLayout android:orientation="vertical" android:id="@id/linear35" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/spn" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="737" />
+                    <ImageView android:id="@id/imageview39" android:layout_width="wrap_content" android:layout_height="55.0dp" android:src="@drawable/hhvv_5" android:scaleType="fitXY" />
+                    <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/amouu" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+                    <ImageView android:id="@id/imageview38" android:layout_width="wrap_content" android:layout_height="55.0dp" android:src="@drawable/hhvv_6" android:scaleType="fitXY" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linear36" android:background="@drawable/dhdhdbbx" android:layout_width="match_parent" android:layout_height="60.0dp">
+                    <EditText android:textSize="16.0sp" android:textStyle="bold" android:textColor="#000000" android:textColorHint="#000000" android:id="@id/edittext2" android:background="@android:color/transparent" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:text="December 2025" android:hint="Edit Text" />
+                    <LinearLayout android:gravity="right|center" android:orientation="horizontal" android:id="@id/linear11136" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <LinearLayout android:orientation="vertical" android:id="@id/linear11137" android:paddingLeft="8.0dp" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+                            <TextView android:textSize="12.0sp" android:textColor="#757575" android:id="@id/textview9" android:paddingLeft="8.0dp" android:paddingTop="4.0dp" android:paddingRight="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Total Spent" />
+                            <EditText android:textSize="14.0sp" android:textStyle="bold" android:textColor="#000000" android:textColorHint="#607d8b" android:id="@id/edittext3" android:background="@android:color/transparent" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹31,837" android:hint="Edit Text" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/linear11138" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+                            <ImageView android:id="@id/imageview40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dhdhc" android:scaleType="center" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ListView android:id="@id/listview1" android:layout_width="match_parent" android:layout_height="match_parent" android:choiceMode="none" />
+    </LinearLayout>
+</LinearLayout>

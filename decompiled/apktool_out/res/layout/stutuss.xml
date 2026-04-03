@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/relative1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@id/webview1" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <LinearLayout android:gravity="center|top" android:orientation="horizontal" android:id="@id/linear2" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/linear3" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="16.0sp" android:textColor="#000000" android:id="@id/textview1" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80.0dp" android:text="Paying securely to" />
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#000000" android:id="@id/username" android:paddingLeft="8.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Suhani Meena" />
+                <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/upi" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:paddingBottom="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="UPI ID: suhanimenasuhanime63@oksdgf" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/linear5" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="4.0dp" android:layout_marginTop="80.0dp" />
+                <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/simpleamount" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="TextView" />
+                <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/nm" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="TextView" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear4" android:paddingLeft="8.0dp" android:paddingTop="8.0dp" android:paddingRight="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="#000000" android:id="@id/textview2" android:paddingLeft="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹" />
+                    <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="#000000" android:id="@id/pese" android:paddingRight="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1038463" />
+                </LinearLayout>
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/textview3" android:paddingLeft="8.0dp" android:paddingTop="4.0dp" android:paddingRight="8.0dp" android:paddingBottom="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="Payment Successful" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

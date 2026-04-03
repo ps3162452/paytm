@@ -1,0 +1,25 @@
+version: 3.0.1
+apkFileName: myfle.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 21
+  targetSdkVersion: 34
+versionInfo:
+  versionCode: 1
+  versionName: 1.0
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- mp3
+- mp4
+- png
+- firebase-common.properties
+- firebase-components.properties
+- firebase-database.properties
+- play-services-base.properties
+- play-services-basement.properties
+- play-services-tasks.properties
+- res/raw/a

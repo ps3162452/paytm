@@ -1,0 +1,44 @@
+.class public Lorg/apache/http/ConnectionClosedException;
+.super Ljava/io/IOException;
+
+
+# annotations
+.annotation runtime Ljava/lang/Deprecated;
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 6
+
+    invoke-direct {p0}, Ljava/io/IOException;-><init>()V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    const/4 v1, 0x5
+
+    new-array v1, v1, [B
+
+    fill-array-data v1, :array_0
+
+    const-string v2, "307a0c"
+
+    const-wide v4, -0x3e3b8bc920800000L    # -6.86321087E8
+
+    invoke-static {v1, v2, v4, v5}, Ln/NPStringFog;->decode([BLjava/lang/String;D)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :array_0
+    .array-data 1
+        0x60t
+        0x44t
+        0x42t
+        0x3t
+        0x11t
+    .end array-data
+.end method

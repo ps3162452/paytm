@@ -1,0 +1,87 @@
+I: Using Apktool 3.0.1 on myfle.apk with 4 threads
+I: smali_classes10 has not changed.
+I: smali_classes11 has not changed.
+I: smali_classes12 has not changed.
+I: smali_classes13 has not changed.
+I: smali_classes14 has not changed.
+I: smali_classes16 has not changed.
+I: smali_classes15 has not changed.
+I: smali_classes17 has not changed.
+I: smali_classes18 has not changed.
+I: smali_classes19 has not changed.
+I: smali_classes20 has not changed.
+I: smali_classes21 has not changed.
+I: smali_classes22 has not changed.
+I: smali_classes23 has not changed.
+I: smali_classes24 has not changed.
+I: smali_classes2 has not changed.
+I: smali_classes26 has not changed.
+I: smali_classes25 has not changed.
+I: smali has not changed.
+I: smali_classes29 has not changed.
+I: smali_classes28 has not changed.
+I: smali_classes30 has not changed.
+I: smali_classes27 has not changed.
+I: smali_classes3 has not changed.
+I: smali_classes33 has not changed.
+I: smali_classes34 has not changed.
+I: smali_classes31 has not changed.
+I: smali_classes32 has not changed.
+I: smali_classes36 has not changed.
+I: smali_classes38 has not changed.
+I: smali_classes39 has not changed.
+I: smali_classes35 has not changed.
+I: smali_classes4 has not changed.
+I: smali_classes41 has not changed.
+I: smali_classes37 has not changed.
+I: smali_classes43 has not changed.
+I: smali_classes44 has not changed.
+I: smali_classes45 has not changed.
+I: smali_classes40 has not changed.
+I: smali_classes47 has not changed.
+I: smali_classes48 has not changed.
+I: smali_classes49 has not changed.
+I: smali_classes42 has not changed.
+I: smali_classes5 has not changed.
+I: smali_classes50 has not changed.
+I: smali_classes52 has not changed.
+I: smali_classes46 has not changed.
+I: smali_classes54 has not changed.
+I: smali_classes53 has not changed.
+I: smali_classes56 has not changed.
+I: smali_classes51 has not changed.
+I: smali_classes58 has not changed.
+I: smali_classes57 has not changed.
+I: smali_classes55 has not changed.
+I: smali_classes60 has not changed.
+I: smali_classes6 has not changed.
+I: smali_classes61 has not changed.
+I: smali_classes62 has not changed.
+I: smali_classes59 has not changed.
+I: smali_classes64 has not changed.
+I: smali_classes63 has not changed.
+I: smali_classes66 has not changed.
+I: smali_classes68 has not changed.
+I: smali_classes69 has not changed.
+I: smali_classes7 has not changed.
+I: smali_classes67 has not changed.
+I: smali_classes70 has not changed.
+I: smali_classes72 has not changed.
+I: smali_classes73 has not changed.
+I: smali_classes8 has not changed.
+I: smali_classes9 has not changed.
+I: smali_classes71 has not changed.
+I: smali_classes65 has not changed.
+I: Building resources with aapt2...
+W: decompiled/apktool_out/res/drawable-xhdpi/dff_1.png: error: failed to read PNG signature: file does not start with PNG signature.
+W: decompiled/apktool_out/res/drawable-xhdpi/dff_1.png: error: file failed to compile.
+W: decompiled/apktool_out/res/drawable-xhdpi/dff_2.png: error: failed to read PNG signature: file does not start with PNG signature.
+W: decompiled/apktool_out/res/drawable-xhdpi/dff_2.png: error: file failed to compile.
+Exception in thread "main" brut.androlib.exceptions.AndrolibException: brut.common.BrutException: Execution failed (exit code = 1): [/tmp/aapt2_141574343216222160233944157106533528726.tmp, compile, --dir, decompiled/apktool_out/res, --legacy, -o, decompiled/apktool_out/build/resources.zip]
+	at brut.androlib.res.AaptInvoker.invoke(SourceFile:90)
+	at brut.androlib.ApkBuilder.buildResources(SourceFile:357)
+	at brut.apktool.Main.main(SourceFile:92)
+Caused by: brut.common.BrutException: Execution failed (exit code = 1): [/tmp/aapt2_141574343216222160233944157106533528726.tmp, compile, --dir, decompiled/apktool_out/res, --legacy, -o, decompiled/apktool_out/build/resources.zip]
+	at brut.util.OS.exec(SourceFile:147)
+	at brut.androlib.res.AaptInvoker.invoke(SourceFile:87)
+	... 2 more
